@@ -287,6 +287,8 @@ Basta colocar três ou mais sinais de `***`, `---` ou `___`.
 
 RESULTADO:
 
+---
+
 &nbsp;
 
 ### Tabelas
@@ -431,7 +433,7 @@ Assim como com os links, as imagens também podem receber o atributo `title` e t
 ```
   Imagem 01: Inserida diretamente:
 
-  ![Imagem 01](https://i.pinimg.com/originals/e3/f3/a2/e3f3a29bbb76785fb51c17b55c97a5d0.jpg "Nobara")
+  ![Imagem 01](https://i.pinimg.com/originals/ed/5a/a4/ed5aa4d221acce68906e39287a41533d.jpg "Nobara")
 
   Imagem 02: Inserida via identificador de referência:
 
@@ -444,7 +446,7 @@ RESULTADO:
 
 Imagem 01: Inserida diretamente:
 
-![Imagem 01](https://i.pinimg.com/originals/e3/f3/a2/e3f3a29bbb76785fb51c17b55c97a5d0.jpg 'Nobara')
+![Imagem 01](https://i.pinimg.com/originals/ed/5a/a4/ed5aa4d221acce68906e39287a41533d.jpg 'Nobara')
 
 &nbsp;
 
