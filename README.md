@@ -8,49 +8,49 @@ Este arquivo apresenta um pequeno **RESUMO/TUTORIAL** sobre alguns conceitos imp
 
 Lembrando que as fontes utilizadas para pesquisa estão no final do arquivo.
 
-## Introdução
+&nbsp;
+
+## 1. Introdução
 
 Markdown é uma linguagem de marcação leve e simples criada por John Gruber em 2004 com a colaborações de Aaron Swartz na sintaxe, e que hoje em dia é uma das linguagens de marcação mais populares do mundo.
 
 &nbsp;
 
-## Linguagens de marcação
+## 2. Linguagens de marcação
 
-Linguagens de marcação são uma forma de anotação de um texto simples sem formatação de modo que ele se torne sintaticamente distinguível e possa ser manipulado por algum software.
+Linguagens de marcação são uma forma de anotação simples de um texto sem formatação de modo que ele se torne sintaticamente distinguível e possa ser manipulado por algum software.
 
-O Markdown é uma linguagem de marcação bastante leve e simples, criada originalmente para escreitores web, para ser convertido em **HTML** válido, mas cuja sintaxe é muito menos _verbosa_ e muito mais legível.
+A principal diferença entre a linguagem de marcação e a linguagem de programação é que uma linguagem de marcação define um conjunto de regras para codificação de documentos em um formato legível. As linguagens de marcação são projetadas para criar uma estrutura, identificar dados ou apresentar dados, em vez de executar uma ação.
+
+O Markdown é uma linguagem de marcação bastante leve e simples, cuja sintaxe é muito menos _verbosa_ e muito mais legível do que outras linguagens, como o **HTML**, por exemplo.
 
 &nbsp;
 
-## Markdown
+## 3. Markdown
 
 A sintaxe de formatação do Markdown foi criada com o objetivo de ser o mais legível possível. Nessa linguagem não é necessário usar _tags_ de abertura e fechamento como em **HTML**, nem é preciso criar estilos de formatação.
 
-### Vantagens do Markdown
+### 3.1. Vantagens
 
-- Markdown pode ser usado para tudo
+- Praticidade
 
-  Para criar sites, documentos, notas, livros, documentação técnica, documentação acadêmica, etc.
+  O Markdown pode ser utilizado de diversas formas, como para criar sites, documentos, notas, livros, documentação técnica, documentação acadêmica, etc.
 
-- Markdown é portátil
+- Portabilidade
 
   Arquivos escritos em Markdown podem ser abertos com praticamente qualquer aplicativo.
 
-- Markdown é independente de plataforma
+- Independente de plataforma
 
   Texto formatado em Markdown pode ser criado em qualquer dispositivo que execute qualquer sistema operacional.
 
-- Markdown é à prova de futuro
-
-  Se o aplicativo que você está usando parar de funcionar em algum momento no futuro, um texto formatado em Markdown ainda poderá ser lido e editado usando qualquer outro aplicativo de edição de texto.
-
-- Markdown está em toda parte
+- Usabilidade
 
   Inúmeros sites da Web suportam Markdown, e muitos aplicativos de desktop e baseados na Web o suportam.
 
 &nbsp;
 
-## Como o Markdown funciona?
+## 4. Como o Markdown funciona?
 
 Quando escrevemos em Markdown o texto é armazenada em um arquivo de texto simples com extensão _.md_ ou _.markdown_.
 
@@ -60,46 +60,46 @@ Os aplicativos Markdown usam algo chamado de processador Markdown para ler o tex
 
 &nbsp;
 
-## Sintaxe básica
+## 5. Sintaxe básica
 
 Assim como no **HTML**, no Markdown os elementos são separados entre elementos bloco (_Block_) e elementos em linha (_inline_ ou _span_).
 
-**Elementos bloco** ocupam todo o espaço horizontal disponível e iniciam uma nova linha no documento. Novos elementos irão começar na próxima linha livre. Elementos bloco podem conter elementos em linha e, às vezes, outros elementos bloco.
+**Elementos bloco** ocupam todo o espaço horizontal disponível, iniciam uma nova linha no documento e os novos elementos inseridos irão começar na próxima linha livre (elementos bloco podem conter elementos em linha e, às vezes, outros elementos bloco).
 
-**Elementos em linha** ocupam apenas o espaço necessário e não iniciam uma nova linha. Geralmente, elementos em linha podem conter apenas conteúdo e outros elementos em linha. Não é possível colocar elementos bloco dentro de elementos em linha.
+**Elementos em linha** ocupam apenas o espaço necessário e não iniciam uma nova linha. Geralmente, elementos em linha podem conter apenas conteúdo e outros elementos em linha (não é possível colocar elementos bloco dentro de elementos em linha).
 
 &nbsp;
 
-## Elementos bloco
+## 6. Elementos bloco
 
-### Títulos
+### 6.1. Títulos
 
 ```
   # Título 1
-  ## Tírulo 2
-  ### Tírulo 3
-  #### Tírulo 4
-  ##### Tírulo 5
-  ###### Tírulo 6
+  ## Título 2
+  ### Título 3
+  #### Título 4
+  ##### Título 5
+  ###### Título 6
 ```
 
 RESULTADO:
 
 # Título 1
 
-## Tírulo 2
+## Título 2
 
-### Tírulo 3
+### Título 3
 
-#### Tírulo 4
+#### Título 4
 
-##### Tírulo 5
+##### Título 5
 
-###### Tírulo 6
+###### Título 6
 
 &nbsp;
 
-Ainda existe uma sintaxe alternativa para os títulos de nível 1 e nível 2, com sinais de `=` e de `-` na linha de baixo do texto do título, da seguinte maneira:
+Existe também uma sintaxe alternativa para os títulos de nível 1 e 2, com sinais de `=` e de `-` na linha de baixo do texto do título, da seguinte maneira:
 
 ```
   Título 1
@@ -111,7 +111,7 @@ Ainda existe uma sintaxe alternativa para os títulos de nível 1 e nível 2, co
 
 &nbsp;
 
-### Parágrafos
+### 6.2. Parágrafos
 
 Consiste em separar um parágrafo de outro ou de qualquer elemento bloco com uma linha vazia.
 
@@ -124,7 +124,7 @@ Consiste em separar um parágrafo de outro ou de qualquer elemento bloco com uma
 
 &nbsp;
 
-### Quebras de linha
+### 6.3. Quebras de linha
 
 Basta deixar dois espaços em branco (teclar space duas vezes) ao fim da primeira linha e nenhuma linha vazia entre elas.
 
@@ -135,24 +135,24 @@ Basta deixar dois espaços em branco (teclar space duas vezes) ao fim da primeir
 
 &nbsp;
 
-### Listas
+### 6.4. Listas
 
-1. Listas não ordenadas
+#### 6.4.1. Listas não ordenadas
 
-   Há três opções: `-`, `+` ou `*`.
+Há três opções: `-`, `+` ou `*`.
 
-   ```
-    - Primeiro item da lista.
-    - Segundo item da lista.
+```
+ - Primeiro item da lista.
+ - Segundo item da lista.
 
-    + Primeiro item da lista.
-    + Segundo item da lista.
+ + Primeiro item da lista.
+ + Segundo item da lista.
 
-    * Primeiro item da lista.
-    * Segundo item da lista.
-   ```
+ * Primeiro item da lista.
+ * Segundo item da lista.
+```
 
-   RESULTADO:
+RESULTADO:
 
 - Primeiro item da lista.
 - Segundo item da lista.
@@ -165,29 +165,29 @@ Basta deixar dois espaços em branco (teclar space duas vezes) ao fim da primeir
 
 &nbsp;
 
-2. Listas ordenadas
+#### 6.4.2. Listas ordenadas
 
-   Basta adicionar um número seguido de um ponto e de um espaço antes do texto de cada item da lista. Pode ser qualquer número em qualquer ordem, ou pode mesmo ser sempre o mesmo número.
+Basta adicionar um número seguido de um ponto e de um espaço antes do texto de cada item da lista. Pode ser qualquer número em qualquer ordem, ou pode até mesmo ser sempre o mesmo número.
 
-   ```
-     1. Primeiro da lista.
-     1. Segundo da lista.
-     1. Terceiro da lista.
+```
+  1. Primeiro da lista.
+  1. Segundo da lista.
+  1. Terceiro da lista.
 
-     3. Primeiro da lista.
-     7. Segundo da lista.
-     2. Terceiro da lista.
-   ```
+  3. Primeiro da lista.
+  7. Segundo da lista.
+  2. Terceiro da lista.
+```
 
-   RESULTADO:
+RESULTADO:
 
-   1. Primeiro da lista.
-   1. Segundo da lista.
-   1. Terceiro da lista.
+1.  Primeiro da lista.
+1.  Segundo da lista.
+1.  Terceiro da lista.
 
 &nbsp;
 
-### Aninhamento de listas
+### 6.5. Aninhamento de listas
 
 Basta indentar a lista aninhada com um tab ou quatro espaços. Isto vale tanto para listas ordenadas quanto para listas não ordenadas, e também é possível aninhar listas ordenadas em listas não ordenadas e vice versa.
 
@@ -231,14 +231,14 @@ RESULTADO:
 
 &nbsp;
 
-### Bloco de citação
+### 6.6. Bloco de citação
 
 Basta inserir um sinal de `>` antes de cada linha que faça parte do bloco e também na linha em branco, caso o bloco de citação possua mais de um parágrafo.
 
 ```
   Este é um parágrafo antes da citação:
 
-  > Este é um bloco de citação com dois parágrafos. Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI.
+  > Este é um bloco de citação aleatório com dois parágrafos. Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI.
   >
   > Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.
 ```
@@ -247,13 +247,13 @@ RESULTADO:
 
 Este é um parágrafo antes da citação:
 
-> Este é um bloco de citação com dois parágrafos. Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI.
+> Este é um bloco de citação aleatório com dois parágrafos. Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI.
 >
 > Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.
 
 &nbsp;
 
-### Blocos de código
+### 6.7. Blocos de código
 
 Utiliza-se ` ``` ` ou `~~~` para formar uma caixa de código (Pode-se colocar o nome da linguagem utilizada para uma melhor conversão de sintaxe).
 
@@ -281,7 +281,7 @@ RESULTADO:
 
 &nbsp;
 
-### Linhas Horizontais
+### 6.8. Linhas Horizontais
 
 Basta colocar três ou mais sinais de `***`, `---` ou `___`.
 
@@ -291,7 +291,7 @@ RESULTADO:
 
 &nbsp;
 
-### Tabelas
+### 6.9. Tabelas
 
 Utiliza-se `|` para delimitar as colunas. Depois, utilize hífen `-` na segunda linha para indicar que acima estão os títulos das colunas e adicione `|` novamente para delimitar colunas.
 
@@ -311,7 +311,7 @@ RESULTADO:
 | Exemplo 02 | R$ 8,00          |
 | Exemplo 03 | R$ 7,50          |
 
-Podemos ainda, utilizar `:` ao lado do campo horizontal de hífens `---`, na segunda linha da tabela, para especificar o tipo de alinhamento de texto.
+Podemos ainda, utilizar `:` ao lado do campo horizontal de hifens `---`, na segunda linha da tabela, para especificar o tipo de alinhamento de texto.
 
 ```
   Alin. a esquerda | Centralizada | Alin. a direita
@@ -328,11 +328,11 @@ valor | valor | valor
 
 &nbsp;
 
-## Elementos em Linha
+## 7. Elementos em Linha
 
-### Ênfase
+### 7.1. Ênfase
 
-#### 01. Itálico
+#### 7.1.1. Itálico
 
 Basta envolver o texto com `*` ou `_`.
 
@@ -346,7 +346,7 @@ _TEXTO_
 
 &nbsp;
 
-#### 02. Negrito
+#### 7.1.2. Negrito
 
 Basta envolver o texto com dois `**` ou com dois `__`.
 
@@ -360,7 +360,7 @@ RESULTADO:
 
 &nbsp;
 
-#### 03. Itálico e negrito
+#### 7.1.3. Itálico e negrito
 
 Basta envolver o texto com três `***` ou com três `___`.
 
@@ -374,7 +374,7 @@ RESULTADO:
 
 &nbsp;
 
-### Código em linha (liretal)
+### 7.2. Código em linha (literal)
 
 Basta envolver o código em sinais de crase.
 
@@ -386,7 +386,7 @@ RESULTADO:
 
 `Código`
 
-### Links
+### 7.3. Links
 
 Basta colocar o texto âncora do link entre `[]` e, na sequência, colocar o URL do link entre `()`. Opcionalmente, se quiser colocar o atributo HTML `title` ao link, basta colocar o texto do `title` entre `""`, após o URL, ainda dentro dos parêntesis.
 
@@ -398,22 +398,23 @@ RESULTADO:
 
 [Google](https://www.google.com 'Acesse o Google!')
 
-Também é possível inserir _links_ com identificadores de referêcia, uma funcionalidade bastante útil quando se precisa inserir um mesmo _link_ diversas vezes na mesma página ou documento.
+Também é possível inserir _links_ com identificadores de referência, uma funcionalidade bastante útil quando se precisa inserir um mesmo _link_ diversas vezes na mesma página ou documento.
 
-A referência do _link_ pode ser inderida em qualquer parte do documento. Basta definir um identificador único, colocado entre `[]`, seguido do sinal de `:`, um espaço e o URL do _link_. Opcionalmente o atributo pode ser colocado entre `""` após o URL.
+A referência do _link_ pode ser inserida em qualquer parte do documento. Basta definir um identificador único, colocado entre `[]`, seguido do sinal de `:`, um espaço e o URL do _link_. Opcionalmente o atributo `title` pode ser colocado entre `""` após o URL.
 
 ```
   [Twitter]: https://twitter.com "Acesse o Twitter!"
+
+  [Twitter]
 ```
 
 RESULTADO:
 
 [twitter]: https://twitter.com 'Acesse o Twitter!'
 
-1.  [Twitter]
-2.  [Twitter]
+[Twitter]
 
-Uma terceira forma de inserir _link_, quando o texto âncora puder ser a própria URL do _link_ é simplismente colocar a URL entre `<>`.
+Uma terceira forma de inserir _link_, quando o texto âncora puder ser a própria URL do _link_ é simplesmente colocar a URL entre `<>`.
 
 ```
   <https://www.google.com>
@@ -425,10 +426,10 @@ RESULTADO:
 
 &nbsp;
 
-### Imagens
+### 7.4. Imagens
 
-Basta utilizar a mesma sintaxe dos _links_ precedida por um sinal de `!`. No lugar do texto âncora do link vai o atributo `alt` da imagem, e a URL pode ser simplesmente o caminho para o arquivo da imagem.  
-Assim como com os links, as imagens também podem receber o atributo `title` e também podem ser inderidas diretamente ou via identificador de referência.
+Basta utilizar a mesma sintaxe dos _links_ precedida por um sinal de `!`. No lugar do texto âncora do link vai o atributo `alt` da imagem, e a URL será inserida entre `()`.  
+Assim como com os links, as imagens também podem receber o atributo `title` e também podem ser inseridas diretamente ou via identificador de referência.
 
 ```
   Imagem 01: Inserida diretamente:
@@ -458,7 +459,7 @@ Imagem 02: Inserida via identificador de referência:
 
 &nbsp;
 
-## Escape de simbolos
+## 8. Escape de símbolos
 
 O Markdown permite que você use "escapes" com o sinal de `\` para gerar caracteres literais que teriam algum significado especial na sintaxe de formatação.
 
@@ -489,7 +490,7 @@ Os seguintes símbolos podem ser "escapados" com o uso da `\`:
 
 &nbsp;
 
-## HTML
+## 9. HTML
 
 Vale lembrar que podemos utilizar as tags **HTML** para qualquer marcação que não seja coberta pelo Markdown.
 
@@ -503,9 +504,9 @@ Este é um termo **em negrito** e este é um termo <strong>em negrito também</s
 
 &nbsp;
 
-## Dialetos (ou sabores) de Markdown
+## 10. Dialetos de Markdown
 
-O Markdown possuí variantes que são chamadas de "sabores" ou dialetos. Cada dialeto de Markdown, além de umas pequenas diferenças de sintaxe em relação a esta sintaxe básica, às vezes um pouco arbitrárias e aleatórias, também apresentam funcionalidades adicionais com uma sintaxe própria para estas "extensões", mas em geral, seguindo a mesma filosofia.
+O Markdown possuí variantes que são chamadas de "sabores" ou dialetos. Cada dialeto de Markdown, além de umas pequenas diferenças de sintaxe em relação a esta sintaxe básica, também apresentam funcionalidades adicionais com uma sintaxe própria para estas "extensões", mas em geral, seguindo a mesma filosofia.
 
 Alguns dialetos diferentes tem foco em propósitos diferentes, e portanto, apresentam funcionalidades estendidas um pouco diferentes.
 
@@ -519,9 +520,18 @@ Alguns exemplos de dialetos Markdown com sintaxe estendida são:
 
 &nbsp;
 
+## 11. Conclusão
+
+Chegamos ao fim, e agora é hora de praticar. O link abaixo irá redirecionar você à um site que possuí um tutorial bem intuitivo do que foi abordado neste documento.
+
+- <https://www.markdowntutorial.com>
+
+Mãos à obra! :)
+
 ---
 
 Fontes de pesquisa:
 
 - <https://www.inteligenciaurbana.org/2021/04/markdown-parte1.html>
 - <https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open>
+- <https://pt.strephonsays.com/what-is-the-difference-between-markup-language-and-programming-language>
